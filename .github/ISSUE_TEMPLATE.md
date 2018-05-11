@@ -1,21 +1,59 @@
-<!-- Please only file bugs with Foundation on GitHub. If you've got a more general question about how to use Foundation, we can help you on the Foundation Forum: http://foundation.zurb.com/forum -->
+<!--- --------------------------------------------------------------------- -->
+<!---                 Please fill the following template                    -->
+<!---                 Your issue may be ignored otherwise                   -->
+<!--- --------------------------------------------------------------------- -->
+<!---  Only submit bug or feature requests here. For help or questions to   -->
+<!---  the community, see the forum: https://foundation.zurb.com/forum      -->
 
-#### How to reproduce this bug:
+## Expected Behavior
+<!--- If describing a bug, tell us what should happen.                      -->
+<!--- If suggesting a change/feature, tell us why and how it should work.   -->
 
-1. Step one
-2. Step two
-3. Step three
+## Current Behavior
+<!--- If describing a bug, tell us what happens instead.                    -->
+<!--- If suggesting a change/feature, explain the difference from           -->
+<!--- current behavior.                                                     -->
 
-#### What should happen:
+## Possible Solution
+<!--- Not obligatory, but suggest a fix/reason for the bug,                 -->
+<!--- or ideas how to implement the addition or change.                     -->
 
-#### What happened instead:
+## Test Case and/or Steps to Reproduce (for bugs)
+<!--- We highly recommend you to provide a live example of your bug so we   -->
+<!--- can reproduce it. You can create a test case with the last Foundation -->
+<!--- version by forking https://codepen.io/ncoden/pen/YLzjeq               -->
+Test Case: <!-- https://... -->
 
-#### Test case:
+<!--- If you cannot provide a test case, provide an unambiguous set of      -->
+<!--- steps to reproduce, with your code and configuration.                 -->
+How to reproduce:
+1.
+2.
+3.
 
-<!-- Give us a link to a CodePen or JSFiddle that recreates the issue. -->
+## Context
+<!--- How has this issue affected you? What are you trying to accomplish?   -->
+<!--- Providing context helps us come up with a solution that is most       -->
+<!--- useful in the real world                                              -->
 
-- [CodePen with Foundation 6.2.4 and MotionUI](https://codepen.io/ncoden/pen/gLEoEB)
-- [CodePen with Foundation 6.2.4, Flexbox grid and MotionUI](https://codepen.io/ncoden/pen/yVwpZN)
+## Your Environment
+<!--- Include as many relevant details about the context and environment    -->
+<!--- you experienced the bug in. You can also provide logs.                -->
+- Foundation version(s) used:
+- Browser(s) name and version(s):
+- Operating System and version (desktop or mobile):
+- Link to your project:
 
-- [CodePen with Foundation 6.3.0 and MotionUI](https://codepen.io/ncoden/pen/oYVpMe)
-- [CodePen with Foundation 6.3.0, Flexbox grid and MotionUI](https://codepen.io/ncoden/pen/qqvpQj)
+## Checklist (all required):
+<!--- Go over all the following points, and put an `x` in the boxes.        -->
+<!--- If you're unsure about any of these, don't hesitate to ask.           -->
+- [ ] I have read and follow the [CONTRIBUTING](CONTRIBUTING.md) document.
+- [ ] This is a bug report or a feature request.
+- [ ] There are no other issues similar to this one.
+- [ ] The issue title is descriptive.
+- [ ] The template is fully and correctly filled.
+
+<!--- --------------------------------------------------------------------- -->
+<!---       For more information, see the CONTRIBUTING.md document          -->
+<!---            Thank you for your issue and happy coding ;)               -->
+<!--- --------------------------------------------------------------------- -->

@@ -8,7 +8,7 @@ var supercollider = require('supercollider');
 var PANINI_CONFIG = {
   root: 'docs/pages/',
   layouts: 'docs/layout/',
-  partials: 'docs/partials/',
+  partials: ['docs/partials/', 'node_modules/foundation-docs/templates/partials/'],
   helpers: foundationDocs.handlebarsHelpers,
 }
 
@@ -30,7 +30,7 @@ supercollider
     pageRoot: 'docs/pages',
     data: {
       repoName: 'foundation-sites',
-      editBranch: 'master'
+      editBranch: 'develop'
     }
   })
   .searchConfig({
@@ -50,7 +50,9 @@ gulp.task('docs', function() {
     }))
     .pipe(supercollider.init())
     .pipe(panini(PANINI_CONFIG))
-    .pipe(cacheBust())
+    .pipe(cacheBust({
+        basePath: '_build/'
+    }))
     .pipe(gulp.dest('_build'))
     .on('finish', buildSearch);
 });
@@ -61,7 +63,9 @@ gulp.task('docs:all', function() {
   return gulp.src('docs/pages/**/*')
     .pipe(supercollider.init())
     .pipe(panini(PANINI_CONFIG))
-    .pipe(cacheBust())
+    .pipe(cacheBust({
+        basePath: '_build/'
+    }))
     .pipe(gulp.dest('_build'))
     .on('finish', buildSearch);
 });
